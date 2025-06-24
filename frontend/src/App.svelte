@@ -44,5 +44,4 @@
   .read-the-docs {
     color: #888;
   }
-</style></parameter>
-</invoke>
+</style>
