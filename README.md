@@ -1,20 +1,20 @@
 # Wails + Svelte 5 Template
 
-Modern Wails template using Svelte 5, Tailwind CSS, and shadcn-svelte components.
+Modern Wails template using Svelte 5, Tailwind CSS v4, and shadcn-svelte components.
 
 ## Features
 
 - Svelte 5 with TypeScript
-- Tailwind CSS for styling
-- shadcn-svelte components
-- Vite for frontend tooling
-- Go backend with Wails
+- Tailwind CSS v4 for styling
+- shadcn-svelte components (bits-ui)
+- Vite 7 for frontend tooling
+- Go backend with Wails v2
 
 ## Requirements
 
-- Go 1.21+
-- Node.js 18+
-- Wails CLI v2.7.0+
+- Go 1.22+
+- Node.js 20.19+ or 22.12+ (required by Vite 7)
+- Wails CLI v2.11.0+
 
 ## Quick Start
 
@@ -35,7 +35,7 @@ wails dev
 
 Add shadcn components:
 ```bash
-npx shadcn-svelte@next add [component-name]
+npx shadcn-svelte@latest add [component-name]
 ```
 
 ## Building
